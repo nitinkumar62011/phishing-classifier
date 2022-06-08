@@ -1,0 +1,9 @@
+base:
+  project: Phishing classifier-project
+  random_state: 42
+  target_col: TARGET
+
+data_source:
+  s3_source: data_given/InputFile.csv
+load_data:
+  raw_dataset_csv: data/raw/InputFile.csv
